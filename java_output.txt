@@ -1,0 +1,177 @@
+2019-05-25 14:29:23.110  INFO 3644 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$94a6a675] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.5.RELEASE)
+
+2019-05-25 14:29:24.142  INFO 3644 --- [           main] c.e.s.SbEurekaJava11Application          : No active profile set, falling back to default profiles: default
+2019-05-25 14:29:26.773  WARN 3644 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-05-25 14:29:27.651  INFO 3644 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7fd22bea-4d54-3af0-8da5-ec8985b0826a
+2019-05-25 14:29:28.048  INFO 3644 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$94a6a675] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-25 14:29:28.802  INFO 3644 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-25 14:29:28.924  INFO 3644 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-25 14:29:28.926  INFO 3644 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-25 14:29:29.204  INFO 3644 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-25 14:29:29.204  INFO 3644 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5006 ms
+2019-05-25 14:29:29.555  WARN 3644 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-25 14:29:29.556  INFO 3644 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-25 14:29:29.628  INFO 3644 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@e93f3d5
+2019-05-25 14:29:31.450  INFO 3644 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-05-25 14:29:31.654  INFO 3644 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-05-25 14:29:31.659  INFO 3644 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (jar:file:/home/jnorris/SpringBoot/sb_eureka_java11/target/sb_eureka_java11-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/xstream-1.4.10.jar!/) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2019-05-25 14:29:32.027  INFO 3644 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-05-25 14:29:32.028  INFO 3644 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-05-25 14:29:32.596 ERROR 3644 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Exception starting filter [servletContainer]
+
+java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl.<clinit>(RuntimeBuiltinLeafInfoImpl.java:478) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.model.impl.RuntimeTypeInfoSetImpl.<init>(RuntimeTypeInfoSetImpl.java:63) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.createTypeInfoSet(RuntimeModelBuilder.java:128) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.createTypeInfoSet(RuntimeModelBuilder.java:84) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.model.impl.ModelBuilder.<init>(ModelBuilder.java:162) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.<init>(RuntimeModelBuilder.java:92) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:455) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:303) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:139) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1156) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.ContextFactory.createContext(ContextFactory.java:165) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at com.sun.xml.bind.v2.ContextFactory.createContext(ContextFactory.java:289) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:217) ~[jaxb-api-2.3.0.jar!/:2.3.0]
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:175) ~[jaxb-api-2.3.0.jar!/:2.3.0]
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:353) ~[jaxb-api-2.3.0.jar!/:2.3.0]
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:508) ~[jaxb-api-2.3.0.jar!/:2.3.0]
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:465) ~[jaxb-api-2.3.0.jar!/:2.3.0]
+	at com.sun.jersey.server.impl.wadl.WadlApplicationContextImpl.<init>(WadlApplicationContextImpl.java:103) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.server.impl.wadl.WadlFactory.init(WadlFactory.java:100) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.server.impl.application.RootResourceUriRules.initWadl(RootResourceUriRules.java:169) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.server.impl.application.RootResourceUriRules.<init>(RootResourceUriRules.java:106) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._initiate(WebApplicationImpl.java:1359) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.access$700(WebApplicationImpl.java:180) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.server.impl.application.WebApplicationImpl$13.f(WebApplicationImpl.java:799) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.server.impl.application.WebApplicationImpl$13.f(WebApplicationImpl.java:795) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.spi.inject.Errors.processWithErrors(Errors.java:193) ~[jersey-core-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:795) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:790) ~[jersey-server-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.spi.container.servlet.ServletContainer.initiate(ServletContainer.java:509) ~[jersey-servlet-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.spi.container.servlet.ServletContainer$InternalWebComponent.initiate(ServletContainer.java:339) ~[jersey-servlet-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.spi.container.servlet.WebComponent.load(WebComponent.java:605) ~[jersey-servlet-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.spi.container.servlet.WebComponent.init(WebComponent.java:207) ~[jersey-servlet-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:394) ~[jersey-servlet-1.19.1.jar!/:1.19.1]
+	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:744) ~[jersey-servlet-1.19.1.jar!/:1.19.1]
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:270) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:106) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4530) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5176) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:455) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:106) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:427) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-5.1.7.RELEASE.jar!/:5.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at com.example.sb_eureka_java11.SbEurekaJava11Application.main(SbEurekaJava11Application.java:12) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[sb_eureka_java11-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[sb_eureka_java11-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) ~[sb_eureka_java11-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) ~[sb_eureka_java11-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[na:na]
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93) ~[sb_eureka_java11-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 86 common frames omitted
+
+2019-05-25 14:29:32.597 ERROR 3644 --- [           main] o.apache.catalina.core.StandardContext   : One or more Filters failed to start. Full details will be found in the appropriate container log file
+2019-05-25 14:29:32.598 ERROR 3644 --- [           main] o.apache.catalina.core.StandardContext   : Context [] startup failed due to previous errors
+2019-05-25 14:29:32.613  WARN 3644 --- [           main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+2019-05-25 14:29:32.690  INFO 3644 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-25 14:29:32.694  WARN 3644 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-05-25 14:29:32.732  INFO 3644 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-25 14:29:32.738 ERROR 3644 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-5.1.7.RELEASE.jar!/:5.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at com.example.sb_eureka_java11.SbEurekaJava11Application.main(SbEurekaJava11Application.java:12) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[sb_eureka_java11-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[sb_eureka_java11-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) ~[sb_eureka_java11-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) ~[sb_eureka_java11-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:125) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:427) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	... 16 common frames omitted
+Caused by: java.lang.IllegalStateException: StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[] failed to start
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.rethrowDeferredStartupExceptions(TomcatWebServer.java:171) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:109) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	... 21 common frames omitted
+
