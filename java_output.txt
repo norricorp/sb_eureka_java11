@@ -1,4 +1,4 @@
-2019-05-25 14:29:23.110  INFO 3644 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$94a6a675] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-25 14:39:40.303  INFO 4204 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46248aba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -8,29 +8,29 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.5.RELEASE)
 
-2019-05-25 14:29:24.142  INFO 3644 --- [           main] c.e.s.SbEurekaJava11Application          : No active profile set, falling back to default profiles: default
-2019-05-25 14:29:26.773  WARN 3644 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
-2019-05-25 14:29:27.651  INFO 3644 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7fd22bea-4d54-3af0-8da5-ec8985b0826a
-2019-05-25 14:29:28.048  INFO 3644 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$94a6a675] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-05-25 14:29:28.802  INFO 3644 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-05-25 14:29:28.924  INFO 3644 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-05-25 14:29:28.926  INFO 3644 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
-2019-05-25 14:29:29.204  INFO 3644 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-05-25 14:29:29.204  INFO 3644 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5006 ms
-2019-05-25 14:29:29.555  WARN 3644 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2019-05-25 14:29:29.556  INFO 3644 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2019-05-25 14:29:29.628  INFO 3644 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@e93f3d5
-2019-05-25 14:29:31.450  INFO 3644 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
-2019-05-25 14:29:31.654  INFO 3644 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2019-05-25 14:29:31.659  INFO 3644 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-05-25 14:39:41.375  INFO 4204 --- [           main] c.e.s.SbEurekaJava11Application          : No active profile set, falling back to default profiles: default
+2019-05-25 14:39:43.971  WARN 4204 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-05-25 14:39:44.860  INFO 4204 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7fd22bea-4d54-3af0-8da5-ec8985b0826a
+2019-05-25 14:39:45.250  INFO 4204 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46248aba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-25 14:39:46.049  INFO 4204 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-05-25 14:39:46.166  INFO 4204 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-25 14:39:46.168  INFO 4204 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-25 14:39:46.452  INFO 4204 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-25 14:39:46.453  INFO 4204 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5020 ms
+2019-05-25 14:39:46.781  WARN 4204 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-25 14:39:46.781  INFO 4204 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-25 14:39:46.824  INFO 4204 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@601cbd8c
+2019-05-25 14:39:48.676  INFO 4204 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-05-25 14:39:48.890  INFO 4204 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-05-25 14:39:48.896  INFO 4204 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (jar:file:/home/jnorris/SpringBoot/sb_eureka_java11/target/sb_eureka_java11-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/xstream-1.4.10.jar!/) to field java.util.TreeMap.comparator
 WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-2019-05-25 14:29:32.027  INFO 3644 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2019-05-25 14:29:32.028  INFO 3644 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2019-05-25 14:29:32.596 ERROR 3644 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Exception starting filter [servletContainer]
+2019-05-25 14:39:49.295  INFO 4204 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-05-25 14:39:49.295  INFO 4204 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-05-25 14:39:49.878 ERROR 4204 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Exception starting filter [servletContainer]
 
 java.lang.NoClassDefFoundError: javax/activation/DataSource
 	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl.<clinit>(RuntimeBuiltinLeafInfoImpl.java:478) ~[jaxb-impl-2.3.0.jar!/:2.3.0]
@@ -126,9 +126,9 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
 	... 86 common frames omitted
 
-2019-05-25 14:29:32.597 ERROR 3644 --- [           main] o.apache.catalina.core.StandardContext   : One or more Filters failed to start. Full details will be found in the appropriate container log file
-2019-05-25 14:29:32.598 ERROR 3644 --- [           main] o.apache.catalina.core.StandardContext   : Context [] startup failed due to previous errors
-2019-05-25 14:29:32.613  WARN 3644 --- [           main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+2019-05-25 14:39:49.885 ERROR 4204 --- [           main] o.apache.catalina.core.StandardContext   : One or more Filters failed to start. Full details will be found in the appropriate container log file
+2019-05-25 14:39:49.885 ERROR 4204 --- [           main] o.apache.catalina.core.StandardContext   : Context [] startup failed due to previous errors
+2019-05-25 14:39:49.896  WARN 4204 --- [           main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
  java.base@11.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
  java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
@@ -137,12 +137,12 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
  java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
  java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
  java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
-2019-05-25 14:29:32.690  INFO 3644 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-05-25 14:29:32.694  WARN 3644 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-2019-05-25 14:29:32.732  INFO 3644 --- [           main] ConditionEvaluationReportLoggingListener : 
+2019-05-25 14:39:49.966  INFO 4204 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-25 14:39:49.973  WARN 4204 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-05-25 14:39:50.013  INFO 4204 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-05-25 14:29:32.738 ERROR 3644 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2019-05-25 14:39:50.021 ERROR 4204 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157) ~[spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
